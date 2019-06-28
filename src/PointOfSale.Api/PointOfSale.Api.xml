@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PointOfSale.Api</name>
+    </assembly>
+    <members>
+        <member name="M:PointOfSale.Api.Controllers.ProductsController.GetProduct(System.String)">
+            <summary>
+            Returns product by code
+            </summary>
+            <param name="code"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PointOfSale.Api.Controllers.ProductsController.GetProducts">
+            <summary>
+            Returns list of all products in catalog
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:PointOfSale.Api.Controllers.ScannerSessionController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:PointOfSale.Api.Controllers.ScannerSessionController.#ctor(PointOfSale.Domain.IProductCatalog)">
+            <summary>
+            
+            </summary>
+            <param name="productCatalog"></param>
+        </member>
+        <member name="M:PointOfSale.Api.Controllers.ScannerSessionController.GetScannerSession(System.Int32)">
+            <summary>
+            Return current state of scanner session
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PointOfSale.Api.Controllers.ScannerSessionController.CreateScannerSession">
+            <summary>
+            Creates new scanner session
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PointOfSale.Api.Controllers.ScannerSessionController.ScanProduct(System.Int32,System.String)">
+            <summary>
+            Scans product and add it to scanner session
+            </summary>
+            <param name="id"></param>
+            <param name="productCode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PointOfSale.Api.Controllers.ScannerSessionController.GetTotalPrice(System.Int32)">
+            <summary>
+            Calculates total for scanner session
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PointOfSale.Api.Controllers.ScannerSessionController.Delete(System.Int32)">
+            <summary>
+            Removes scanner session
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
